@@ -22,10 +22,10 @@ $(document).ready(function(){
               $(".topbar").removeClass('changeColor')
            }
         });
-  $(".img").lazyload({
-    effect: "fadeIn"
-
-});
+//   $(".img").lazyload({
+//     effect: "fadeIn"
+//
+// });
 
 $("#tag-20AW").click(function(){
 $(".img").lazyload({effect: "fadeIn"
