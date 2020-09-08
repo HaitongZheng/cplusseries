@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  $("#welcomevideo").get(0).play();
   $(".dropdown1").hide();
   $(".mobiledropdown").hide();
   $("#collection").click(function(){
