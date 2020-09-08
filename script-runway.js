@@ -1,4 +1,9 @@
 $(document).ready(function(){
+  $("#17SS").hide();
+  $("#17AW").hide();
+  $("#18SS").hide();
+  $("#18AW").hide();
+
   $("#tag-20AW").css("border-bottom","1px solid red");
   $(".dropdown1").hide();
   $("#collection").click(function(){
@@ -22,6 +27,7 @@ $(document).ready(function(){
               $(".topbar").removeClass('changeColor')
            }
         });
+
   $(".img").lazyload({
     effect: "fadeIn"
 
@@ -90,6 +96,7 @@ $('html, body').animate({
     });
 });
   $("#tag-18AW").click(function(){
+    $("#18AW").show();
     $(".img").lazyload({effect: "fadeIn"
       });
     $("#tag-18AW").css("border-bottom","1px solid red");
@@ -105,6 +112,7 @@ $('html, body').animate({
       });
   });
   $("#tag-18SS").click(function(){
+    $("#18SS").show();
     $(".img").lazyload({effect: "fadeIn"
       });
     $("#tag-18SS").css("border-bottom","1px solid red");
@@ -120,6 +128,7 @@ $('html, body').animate({
       });
   });
   $("#tag-17AW").click(function(){
+    $("#17AW").show();
     $(".img").lazyload({effect: "fadeIn"
       });
     $("#tag-17AW").css("border-bottom","1px solid red");
@@ -135,6 +144,7 @@ $('html, body').animate({
       });
   });
   $("#tag-17SS").click(function(){
+    $("#17SS").show();
     $(".img").lazyload({effect: "fadeIn"
       });
     $("#tag-17SS").css("border-bottom","1px solid red");
