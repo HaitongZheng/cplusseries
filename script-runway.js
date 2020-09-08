@@ -1,9 +1,4 @@
 $(document).ready(function(){
-  $("#17SS").hide();
-  $("#17AW").hide();
-  $("#18SS").hide();
-  $("#18AW").hide();
-
   $("#tag-20AW").css("border-bottom","1px solid red");
   $(".dropdown1").hide();
   $("#collection").click(function(){
@@ -30,7 +25,6 @@ $(document).ready(function(){
 
   $(".img").lazyload({
     effect: "fadeIn"
-
 });
 
 $("#tag-20AW").click(function(){
