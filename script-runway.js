@@ -4,7 +4,7 @@ $(document).ready(function(){
   $("#18SS").hide();
   $("#18AW").hide();
 
-  $("#tag-20AW").css("border-bottom","1px solid red");
+  $("#tag-21SS").css("border-bottom","1px solid red");
   $(".dropdown1").hide();
   $("#collection").click(function(){
     $(".dropdown1").toggle();
@@ -32,10 +32,28 @@ $(document).ready(function(){
     effect: "fadeIn"
 });
 
+$("#tag-21SS").click(function(){
+$(".img").lazyload({effect: "fadeIn"
+  });
+$("#tag-21SS").css("border-bottom","1px solid red");
+$("#tag-20AW").css("border-bottom","none");
+$("#tag-20AW").css("border-bottom","none");
+$("#tag-20SS").css("border-bottom","none");
+$("#tag-19AW").css("border-bottom","none");
+$("#tag-19SS").css("border-bottom","none");
+$("#tag-18AW").css("border-bottom","none");
+$("#tag-18SS").css("border-bottom","none");
+$("#tag-17AW").css("border-bottom","none");
+$("#tag-17SS").css("border-bottom","none");
+$('html, body').animate({
+      scrollTop: $("#21SS").offset().top
+  });
+});
 $("#tag-20AW").click(function(){
 $(".img").lazyload({effect: "fadeIn"
   });
 $("#tag-20AW").css("border-bottom","1px solid red");
+$("#tag-21SS").css("border-bottom","none");
 $("#tag-20SS").css("border-bottom","none");
 $("#tag-19AW").css("border-bottom","none");
 $("#tag-19SS").css("border-bottom","none");
@@ -52,6 +70,7 @@ $("#tag-20SS").click(function(){
 $(".img").lazyload({effect: "fadeIn"
   });
 $("#tag-20SS").css("border-bottom","1px solid red");
+$("#tag-21SS").css("border-bottom","none");
 $("#tag-20AW").css("border-bottom","none");
 $("#tag-19AW").css("border-bottom","none");
 $("#tag-19SS").css("border-bottom","none");
@@ -68,6 +87,7 @@ $("#tag-19AW").click(function(){
 $(".img").lazyload({effect: "fadeIn"
   });
 $("#tag-19AW").css("border-bottom","1px solid red");
+$("#tag-21SS").css("border-bottom","none");
 $("#tag-20AW").css("border-bottom","none");
 $("#tag-20SS").css("border-bottom","none");
 $("#tag-19SS").css("border-bottom","none");
@@ -83,6 +103,7 @@ $('html, body').animate({
   $(".img").lazyload({effect: "fadeIn"
     });
   $("#tag-19SS").css("border-bottom","1px solid red");
+  $("#tag-21SS").css("border-bottom","none");
   $("#tag-20AW").css("border-bottom","none");
   $("#tag-20SS").css("border-bottom","none");
   $("#tag-19AW").css("border-bottom","none");
@@ -99,6 +120,7 @@ $('html, body').animate({
     $(".img").lazyload({effect: "fadeIn"
       });
     $("#tag-18AW").css("border-bottom","1px solid red");
+    $("#tag-21SS").css("border-bottom","none");
     $("#tag-20AW").css("border-bottom","none");
     $("#tag-20SS").css("border-bottom","none");
     $("#tag-19AW").css("border-bottom","none");
@@ -115,6 +137,7 @@ $('html, body').animate({
     $(".img").lazyload({effect: "fadeIn"
       });
     $("#tag-18SS").css("border-bottom","1px solid red");
+    $("#tag-21SS").css("border-bottom","none");
     $("#tag-20AW").css("border-bottom","none");
     $("#tag-20SS").css("border-bottom","none");
     $("#tag-19AW").css("border-bottom","none");
@@ -131,6 +154,7 @@ $('html, body').animate({
     $(".img").lazyload({effect: "fadeIn"
       });
     $("#tag-17AW").css("border-bottom","1px solid red");
+    $("#tag-21SS").css("border-bottom","none");
     $("#tag-20AW").css("border-bottom","none");
     $("#tag-20SS").css("border-bottom","none");
     $("#tag-19AW").css("border-bottom","none");
@@ -147,7 +171,9 @@ $('html, body').animate({
     $(".img").lazyload({effect: "fadeIn"
       });
     $("#tag-17SS").css("border-bottom","1px solid red");
+    $("#tag-21SS").css("border-bottom","none");
     $("#tag-20AW").css("border-bottom","none");
+    $("#tag-20SS").css("border-bottom","none");
     $("#tag-19AW").css("border-bottom","none");
     $("#tag-19SS").css("border-bottom","none");
     $("#tag-18AW").css("border-bottom","none");

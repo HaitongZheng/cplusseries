@@ -178,11 +178,10 @@ to {opacity: .8;}
   margin-bottom: 5%;
   padding-left: 10%;
   padding-right: 15%;
+  text-decoration: center;
 }
 #info p{
-  text-align: left;
   font-size: 100%;
-  color:red;
   font-weight: 400;
 }
 
