@@ -36,8 +36,6 @@ $("#tag-21SS").click(function(){
   $("#tag-20AW").css("border-bottom","none");
   $("#tag-18AW").css("border-bottom","none");
   $("#tag-18SS").css("border-bottom","none");
-  $("#tag-17AW").css("border-bottom","none");
-  $("#tag-17SS").css("border-bottom","none");
   $('html, body').animate({
         scrollTop: $("#21SS").offset().top
     });
@@ -52,8 +50,6 @@ $("#tag-20AW").click(function(){
   $("#tag-19SS").css("border-bottom","none");
   $("#tag-18AW").css("border-bottom","none");
   $("#tag-18SS").css("border-bottom","none");
-  $("#tag-17AW").css("border-bottom","none");
-  $("#tag-17SS").css("border-bottom","none");
   $('html, body').animate({
         scrollTop: $("#20AW").offset().top
     });
@@ -68,8 +64,6 @@ $("#tag-19AW").click(function(){
   $("#tag-19SS").css("border-bottom","none");
   $("#tag-18AW").css("border-bottom","none");
   $("#tag-18SS").css("border-bottom","none");
-  $("#tag-17AW").css("border-bottom","none");
-  $("#tag-17SS").css("border-bottom","none");
   $('html, body').animate({
         scrollTop: $("#19AW").offset().top
     });
@@ -84,8 +78,6 @@ $("#tag-19SS").click(function(){
   $("#tag-19AW").css("border-bottom","none");
   $("#tag-18AW").css("border-bottom","none");
   $("#tag-18SS").css("border-bottom","none");
-  $("#tag-17AW").css("border-bottom","none");
-  $("#tag-17SS").css("border-bottom","none");
   $('html, body').animate({
         scrollTop: $("#19SS").offset().top
     });
@@ -100,8 +92,6 @@ $("#tag-19SS").click(function(){
     $("#tag-19AW").css("border-bottom","none");
     $("#tag-19SS").css("border-bottom","none");
     $("#tag-18SS").css("border-bottom","none");
-    $("#tag-17AW").css("border-bottom","none");
-    $("#tag-17SS").css("border-bottom","none");
     $('html, body').animate({
           scrollTop: $("#18AW").offset().top
       });
@@ -113,36 +103,9 @@ $("#tag-19SS").click(function(){
     $("#tag-19AW").css("border-bottom","none");
     $("#tag-19SS").css("border-bottom","none");
     $("#tag-18AW").css("border-bottom","none");
-    $("#tag-17AW").css("border-bottom","none");
-    $("#tag-17SS").css("border-bottom","none");
     $('html, body').animate({
           scrollTop: $("#18SS").offset().top
       });
   });
-  $("#tag-17AW").click(function(){
-    $("#tag-17AW").css("border-bottom","1px solid red");
-    $("#tag-21SS").css("border-bottom","none");
-    $("#tag-20AW").css("border-bottom","none");
-    $("#tag-19AW").css("border-bottom","none");
-    $("#tag-19SS").css("border-bottom","none");
-    $("#tag-18AW").css("border-bottom","none");
-    $("#tag-18SS").css("border-bottom","none");
-    $("#tag-17SS").css("border-bottom","none");
-    $('html, body').animate({
-          scrollTop: $("#17AW").offset().top
-      });
-  });
-  $("#tag-17SS").click(function(){
-    $("#tag-17SS").css("border-bottom","1px solid red");
-    $("#tag-21SS").css("border-bottom","none");
-    $("#tag-20AW").css("border-bottom","none");
-    $("#tag-19AW").css("border-bottom","none");
-    $("#tag-19SS").css("border-bottom","none");
-    $("#tag-18AW").css("border-bottom","none");
-    $("#tag-18SS").css("border-bottom","none");
-    $("#tag-17AW").css("border-bottom","none");
-    $('html, body').animate({
-          scrollTop: $("#17SStitle").offset().top
-      });
-  });
+
 });
