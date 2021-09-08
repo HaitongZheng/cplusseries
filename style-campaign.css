@@ -5,19 +5,21 @@
   box-sizing:border-box;
 }
 body{
-font-family: 'Roboto', sans-serif;
+font-family: 'Montreal-medium', sans-serif;
+background-image: none;
+}
+
+@font-face {
+  font-family: 'Montreal-regular';
+  src:
+    url('font/NeueMontreal-Regular.otf');
+    font-weight: regular;
 }
 @font-face {
-    font-family: 'new_ciclefina';
-    src: url('New_Cicle_Fina-webfont.eot');
-    src: url('New_Cicle_Fina-webfont.eot?#iefix') format('embedded-opentype'),
-         url('New_Cicle_Fina-webfont.woff2') format('woff2'),
-         url('New_Cicle_Fina-webfont.woff') format('woff'),
-         url('New_Cicle_Fina-webfont.ttf') format('truetype'),
-         url('New_Cicle_Fina-webfont.svg#new_ciclefina') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'Montreal-medium';
+  src:
+    url('font/NeueMontreal-medium.otf');
+    font-weight: medium;
 }
 
 
@@ -62,8 +64,7 @@ to {opacity: .8;}
 
 /* .topbar */
 p{
-  /* font-family: 'new_ciclefina'; */
-  font-size: 120%;
+  font-size: 1.2em;
   margin-top: 2%;
   margin-bottom: 2%;
 }
@@ -80,8 +81,7 @@ p{
 
 }
 .topbar a{
-  /* font-family: 'new_ciclefina'; */
-  font-size: 100%;
+  font-size: .85em;
   text-decoration: none;
   color:black;
   position: fixed;
@@ -104,39 +104,33 @@ p{
 #collection:hover{
     cursor: pointer;
     opacity: 1;
-    font-size: 110%;
+    font-size: .85em;
 }
 
 .dropdown1{
-  z-index: 503;
+  z-index: 505;
   background-color: white;
-  width: 120%;
-  padding-top: 15%;
-  padding-bottom: 0;
-  padding-left: 10%;
-  margin-top: 8%;
-  opacity: 0.8;
-  -webkit-animation: opacitychange3 1.5s;
+  position:fixed;
+  width: 200%;
+  padding-top: 1.5%;
+  padding-bottom: 1%;
+  padding-left: 5%;
+  margin-top: 2%;
+
 }
 
 .dropdown1 li{
   list-style-type:none;
-  list-style-image: url(img/plus2.png);
+  list-style-image: url(img/plus1.png);
   line-height: 2;
 }
 
 #dd1 a{
-  font-weight: 300;
-  font-size: 90%;
+  font-size: .85em;
   color:black;
   float: left;
   opacity:1;
 }
-#dd1 a:hover{
-  font-size:100%;
-  opacity:1;
-}
-
 
 .topelement{
   width: 8.33%;
@@ -152,7 +146,6 @@ p{
 .topelement:hover{
   cursor: pointer;
   opacity: 1;
-  font-size: 110%;
 }
 
 

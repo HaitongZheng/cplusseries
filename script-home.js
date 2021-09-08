@@ -5,9 +5,9 @@ $(document).ready(function(){
   $("#collection").click(function(){
     $(".dropdown1").toggle();
   });
-  $("#collection").mouseout(function(){
-    $(".dropdown1").hide();
-  });
+  // $("#collection").mouseout(function(){
+  //   $(".dropdown1").hide();
+  // });
   $(".dropdown1").mouseover(function(){
     $(".dropdown1").show();
   });
