@@ -300,4 +300,38 @@ body {
 [class*="col-"] {
     display: inline-block;
 }
+
+.hidden{
+  display: none;
+}
+.WIP{
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  padding: 1vw;
+  color: white;
+  background-color: black;
+}
+.center{
+  position:absolute;
+  width:100%;
+  top:50%;
+  text-align: center;
+  margin: auto;
+}
+.English{
+  font-family: 'Weidemann';
+  src:
+    url('font/WeidemannStd-Medium');
+    font-weight: regular;
+    font-size: 1.2em;
+    margin: 1vw;
+}
+.Chinese{
+  font-family: 'SourceHan';
+  src:
+    url('font/SourceHanSerifCN-Medium');
+    font-weight: medium;
+    font-size: 1em;
+}
 }
