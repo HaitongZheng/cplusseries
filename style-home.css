@@ -315,3 +315,44 @@ body {
 .hidden{
   display: none;
 }
+.WIP{
+  width: 100vw;
+  height: 100vh;
+  padding: 1vw;
+  color: white;
+  background-color: black;
+}
+.center, .bottom{
+  width:100%;
+  text-align: center;
+  margin: auto;
+}
+.center{
+  margin-top: 15%;
+}
+.bottom{
+  margin-top: 5%;
+}
+.bottom a {
+  color: white;
+}
+a:hover{
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+.English{
+  font-family: 'Weidemann';
+  src:
+    url('font/WeidemannStd-Medium');
+    font-weight: regular;
+    font-size: 1.2em;
+    margin: 1vw;
+}
+.Chinese{
+  font-family: 'SourceHan';
+  src:
+    url('font/SourceHanSerifCN-Medium');
+    font-weight: medium;
+    font-size: 1em;
+}
